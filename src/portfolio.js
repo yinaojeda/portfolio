@@ -26,7 +26,7 @@ const greeting = {
     "I'm a passionate Full-Stack Developer 🚀 from Paraguay with 8+ years of experience building web applications, with PHP and Laravel"
   ),
   resumeLink:
-    "hhttps://drive.google.com/file/d/1-_fECShrtcZRv4yJHpn0N8sY5kine5dB/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1-_fECShrtcZRv4yJHpn0N8sY5kine5dB/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
