@@ -26,7 +26,7 @@ const greeting = {
     "I'm a passionate Full-Stack Developer 🚀 from Paraguay with 8+ years of experience building web applications, with PHP and Laravel"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1-_fECShrtcZRv4yJHpn0N8sY5kine5dB/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1-_fECShrtcZRv4yJHpn0N8sY5kine5dB/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -49,13 +49,16 @@ const skillsSection = {
   subTitle: "WEB AND DESKTOP FULL STACK DEVELOPER",
   skills: [
     emoji(
-      "⚡ Developed a full-featured Educational Management Platform using Laravel + Livewire to manage enrollment, evaluations, and report cards"
+      "⚡ Proficient in building complete systems from front-end to back-end using PHP (Laravel + Livewire), Java, and PowerScript with PostgreSQL"
     ),
     emoji(
-      "⚡ Built and deployed a Gym Membership System with national ID-based check-ins, real-time access validation, and user activity tracking"
+      "⚡ Specialized in developing ERP, POS, and educational platforms that manage complex operations such as enrollment, evaluation, sales, inventory, and financial reporting."
     ),
     emoji(
-      "⚡ Created 20+ reports (sales, purchases, inventory) in Java + Jaspersoft for a smart ERP system"
+      "⚡ Skilled in creating automated PDF reports (grades, sales, inventory, etc.) and optimizing SQL-based data processing to improve business decisions and reduce load times."
+    ),
+    emoji(
+      "⚡ Experienced in integrating real-time features such as attendance tracking, check-in validation, and dynamic dashboards to streamline user workflows and increase system efficiency."
     )
   ],
 
@@ -87,7 +90,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "SSH",
       fontAwesomeClassname: "fas fa-terminal"
-    },   
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -102,7 +105,7 @@ const educationInfo = {
       logo: require("./assets/images/uclogo2.png"),
       subHeader: "Engineer in Computer Science",
       duration: "March 2013 - March 2019",
-      desc: "Graduated with honors in Computer Science, with focus on software engineering",
+      desc: "Graduated with honors in Computer Science, with focus on software engineering"
       /*
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -115,8 +118,11 @@ const educationInfo = {
       logo: require("./assets/images/unalogo.jpg"),
       subHeader: "Certificate in Cybersecurity",
       duration: "May 2023 - October 2023",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      //desc: "Covered cybersecurity fundamentals, legal frameworks, and network defense strategies. ",
+      descBullets: [
+        "Covered cybersecurity fundamentals, legal frameworks, and network defense strategies.",
+        "Focused on threat analysis, security controls, and defensive practices from a Blue Team perspective."
+      ]
     }
   ]
 };
@@ -149,28 +155,30 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      company: "Office World",
+      companylogo: require("./assets/images/owlogo.png"),
+      date: "February 2021 – Present",
+      desc: "Responsible for designing and implementing full-stack software solutions, building efficient data workflows, optimizing backend logic, and delivering user-friendly interfaces for both web and desktop applications",
+      
+      /*descBullets: [
+        "Built an academic management platform with modules for enrollment, evaluations, and report generation (Laravel + Livewire)",
+        "Developed 20+ dynamic reports on inventory, purchases, and sales using SQL and JasperReports"
       ]
+        */
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Developer",
+      company: "Multisoft",
+      companylogo: require("./assets/images/multisoftpy_logo.jpg"),
+      date: "September 2020 – January 2021",
+      desc: "Responsible for modifying and customizing client financial and operational reports in an accountability-focused."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer",
+      company: "Freelancer",
+      companylogo: require("./assets/images/free.jpg"),
+      date: "January 2018 – January 2021",
+      desc: "I’ve designed and built full-featured business systems for clients in the fitness, beauty, retail, and manufacturing sectors. My solutions are tailored to real-world operations, combining database-driven logic with intuitive interfaces."
     }
   ]
 };
@@ -357,7 +365,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,

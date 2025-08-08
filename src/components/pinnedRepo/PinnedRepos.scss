@@ -1,0 +1,38 @@
+.pinned-repos {
+  margin-top: 2rem;
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .repos-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  .repo-card {
+    background: #1e1e1e;
+    padding: 1rem;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #333;
+    transition: transform 0.2s ease;
+    &:hover {
+      transform: translateY(-3px);
+      border-color: #555;
+    }
+    h3 {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+    p {
+      margin: 0.5rem 0;
+      font-size: 0.9rem;
+    }
+    .repo-meta {
+      font-size: 0.8rem;
+      display: flex;
+      gap: 1rem;
+    }
+  }
+}

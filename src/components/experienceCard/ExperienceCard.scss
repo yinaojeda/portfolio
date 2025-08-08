@@ -1,5 +1,9 @@
 @import "../../_globalColor";
 
+.logo-white-bk {
+   background-color: 'white',
+}
+
 .experience-card {
   position: relative;
   background-color: $lightBackground2;
@@ -89,6 +93,7 @@
   height: 8rem;
   box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
   border-radius: 50%;
+  background-color: white;
 }
 
 .experience-text-role {

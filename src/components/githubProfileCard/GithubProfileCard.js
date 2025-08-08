@@ -1,11 +1,13 @@
 import React from "react";
 import "./GithubProfileCard.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
+import PinnedRepos from "../pinnedRepo/PinnedRepos";
 import {contactInfo, isHireable} from "../../portfolio";
 import emoji from "react-easy-emoji";
 import {Fade} from "react-reveal";
 
 export default function GithubProfileCard({prof}) {
+  if (!prof) return null;
   if (isHireable) {
     prof.hireable = "Yes";
   } else {
@@ -55,7 +57,10 @@ export default function GithubProfileCard({prof}) {
               className="profile-image"
             />
           </div>
+
         </div>
+          <PinnedRepos username="yinaojeda" />
+
       </div>
     </Fade>
   );
