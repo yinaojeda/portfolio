@@ -198,7 +198,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/cenedin.png"),
       projectName: "CENESIS",
       projectDesc: "Educational Management Platform",
       footerLink: [
