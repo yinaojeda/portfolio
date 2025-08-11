@@ -15,7 +15,6 @@ import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
-import GithubProfileCard from "../components/githubProfileCard/GithubProfileCard";
 import "./Main.scss";
 
 const Main = () => {
@@ -35,12 +34,6 @@ const Main = () => {
       };
     }
   }, []);
-  const prof = {
-    name: "Yina Ojeda",
-    bio: "I love open source",
-    location: "Paraguay",
-    avatarUrl: "https://via.placeholder.com/150"
-  };
   const changeTheme = () => {
     setIsDark(!isDark);
   };
@@ -59,7 +52,6 @@ const Main = () => {
             <Education />
             <WorkExperience />
             <Projects />
-            <GithubProfileCard prof={prof} />
             <StartupProject />
             <Achievement />
             <Profile />
