@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.aa597dc2.css",
-    "main.js": "/portfolio/static/js/main.fde7b2fb.js",
+    "main.js": "/portfolio/static/js/main.63db752d.js",
     "static/css/64.bba8fa55.chunk.css": "/portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/portfolio/static/js/64.56dc6704.chunk.js",
     "static/media/free.jpg": "/portfolio/static/media/free.3c88a0683c375b645281.jpg",
     "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/resume.pdf": "/portfolio/static/media/resume.61fa2521c824f2b340bf.pdf",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.dbd92796ec3ee778631e.pdf",
     "static/media/Agustina.woff": "/portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/unalogo.jpg": "/portfolio/static/media/unalogo.83b6d4cf533952eb3bb1.jpg",
     "static/media/manOnTable.svg": "/portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -21,12 +21,12 @@
     "static/media/nextuLogo.webp": "/portfolio/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/portfolio/index.html",
     "main.aa597dc2.css.map": "/portfolio/static/css/main.aa597dc2.css.map",
-    "main.fde7b2fb.js.map": "/portfolio/static/js/main.fde7b2fb.js.map",
+    "main.63db752d.js.map": "/portfolio/static/js/main.63db752d.js.map",
     "64.bba8fa55.chunk.css.map": "/portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/portfolio/static/js/64.56dc6704.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aa597dc2.css",
-    "static/js/main.fde7b2fb.js"
+    "static/js/main.63db752d.js"
   ]
 }
