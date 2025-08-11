@@ -158,8 +158,8 @@ const workExperiences = {
       company: "Office World",
       companylogo: require("./assets/images/owlogo.png"),
       date: "February 2021 – Present",
-      desc: "Responsible for designing and implementing full-stack software solutions, building efficient data workflows, optimizing backend logic, and delivering user-friendly interfaces for both web and desktop applications",
-      
+      desc: "Responsible for designing and implementing full-stack software solutions, building efficient data workflows, optimizing backend logic, and delivering user-friendly interfaces for both web and desktop applications"
+
       /*descBullets: [
         "Built an academic management platform with modules for enrollment, evaluations, and report generation (Laravel + Livewire)",
         "Developed 20+ dynamic reports on inventory, purchases, and sales using SQL and JasperReports"

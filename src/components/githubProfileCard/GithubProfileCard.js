@@ -57,10 +57,8 @@ export default function GithubProfileCard({prof}) {
               className="profile-image"
             />
           </div>
-
         </div>
-          <PinnedRepos username="yinaojeda" />
-
+        <PinnedRepos username="yinaojeda" />
       </div>
     </Fade>
   );

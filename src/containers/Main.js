@@ -59,7 +59,7 @@ const Main = () => {
             <Education />
             <WorkExperience />
             <Projects />
-            <GithubProfileCard prof={prof}/>
+            <GithubProfileCard prof={prof} />
             <StartupProject />
             <Achievement />
             <Profile />
